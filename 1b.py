@@ -7,6 +7,7 @@ with open('1.txt', 'r') as f:
 
     found = False
     round = 0
+    # not working right now...
     for num in itertools.cycle(dev):
         print("round: ", round)
         for a in dev:

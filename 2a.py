@@ -16,9 +16,9 @@ with open("2.txt", "r") as f:
             group.append(list(g))
             keys.append(k)
         lengths = list(map(len, group))
-        if lengths.__contains__(2):
+        if 2 in lengths:
             twoTimes = twoTimes + 1
-        if lengths.__contains__(3):
+        if 3 in lengths:
             threeTimes = threeTimes + 1
         
     print("two times ", twoTimes, "three times ", threeTimes, "prod ", twoTimes * threeTimes)
